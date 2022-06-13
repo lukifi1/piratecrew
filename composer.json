@@ -1,0 +1,18 @@
+{
+    "name": "htlw3r/pirate",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Htlw3r\\Pirate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lukas Fink",
+            "email": "8133@htl.rennweg.at"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.12"
+    }
+}
