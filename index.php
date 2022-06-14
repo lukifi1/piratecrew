@@ -125,6 +125,10 @@ function delete($name)
 
     $conn = DriverManager::getConnection($connectionParams);
     $queryBuilder = $conn->createQueryBuilder();
+	
+	$stmt = $conn->prepare('ALTER TABLE ship AUTO_INCREMENT = 1');
+	
+	$stmt->executeQuery();
 
     $queryBuilder
         ->delete('ship')
