@@ -10,31 +10,6 @@
 <body>
 <h1>Welcome to the Pirate-Crew Constructor</h1>
 
-<?php
-/*
-
-$connectionParams = [
-    'dbname' => 'PIRATESHIP',
-    'user' => 'root',
-    'password' => '',
-    'host' => 'localhost',
-    'driver' => 'pdo_mysql',
-];
-
-$conn = DriverManager::getConnection($connectionParams);
-$queryBuilder = $conn->createQueryBuilder();
-
-$stmt = $conn->prepare('select * from ship');
-$result = $stmt->executeQuery();
-echo '<label>Ship:</label> ';
-echo '<select>';
-echo '<option value="null">null</option>';
-while (($row = $result->fetchAssociative()) !== false) {
-    echo '<option value="' . $row['pk_ship_id'] . '">' . $row['name'] . '</option>';
-}
-echo '</select>';
-*/?>
-
 <article id="flex">
     <section>
         <h4>Create a new Ship↓</h4>
